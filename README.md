@@ -26,3 +26,7 @@ Students specialize the files under `agents/<agent-name>/`. Files under `core/` 
 **No OpenAI API key is required by this scaffold.** It does not call the OpenAI API. ChatGPT is the interactive model runtime; the Python tools are local prompt/validation utilities.
 
 Start with `START_HERE.md` and the Student Operating Guide in `docs/`.
+
+## Assignment 7 working agent
+
+Shuoying Wang's Organizational Adoption Agent is under `agents/organizational_adoption_agent/`. The completed Word Agent Record is under `deliverables/`. See the agent README and test record for reproducible commands and actual results.
