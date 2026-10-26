@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Multimodal generative AI for short-form social video creation and content governance",
+  "intended_application": "Create draft 15-60 second TikTok and Instagram marketing videos from approved product assets, with human review before publication and provenance/disclosure controls for AI-generated media",
+  "organization": "A mid-sized consumer brand considering a short-video pilot",
+  "industry_sector": "Consumer products and digital advertising",
+  "business_need": "Increase short-form video production speed",
+  "users_stakeholders": "Marketing, legal, creators and customers",
+  "adoption_posture": "Moderate",
+  "capabilities_constraints": "The organization reports an existing marketing team and budget but provides no evidence about approval workflow, rights management, security review, provenance retention, training, incident ownership or measurement capability",
+  "risk_consequence_context": "Public-facing synthetic media may create brand, rights and disclosure consequences",
+  "management_question": "Is the organization ready to authorize public use?",
+  "time_horizon": "Decision this quarter",
+  "additional_context": "This case intentionally withholds the operating evidence needed for a firm readiness determination."
+}

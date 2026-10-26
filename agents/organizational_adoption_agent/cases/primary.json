@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Multimodal generative AI for short-form social video creation and content governance",
+  "intended_application": "Create draft 15-60 second TikTok and Instagram marketing videos from approved product assets, with human review before publication and provenance/disclosure controls for AI-generated media",
+  "organization": "Northstar Consumer Brands, a hypothetical multinational consumer-products company with 8,000 employees and a centralized global marketing organization",
+  "industry_sector": "Consumer products and digital advertising across the United States and European Union",
+  "business_need": "Reduce campaign adaptation time and cost while producing localized short-form video variants without weakening brand safety, intellectual-property review, or disclosure compliance",
+  "users_stakeholders": "Brand marketers, creative studio staff, regional marketing teams, legal and privacy teams, information security, procurement, model vendors, social-platform users, performers and rights holders",
+  "adoption_posture": "Moderate fast-follower: willing to pilot proven enterprise tools but unwilling to publish unsupervised AI-generated video",
+  "capabilities_constraints": "Central creative operations; named CMO sponsor; existing digital asset management and campaign approval workflow; privacy, security, legal and procurement teams; enterprise identity management; six-month pilot budget. Gaps: no approved video-generation vendor, no AI-specific content provenance standard, limited evaluator training, unclear post-launch incident owner, and no measured baseline for rework or disclosure errors",
+  "risk_consequence_context": "Public-facing content can create intellectual-property, likeness/consent, deceptive-content, brand, privacy and platform-policy consequences. Content is reversible through takedown but can spread before correction; realistic synthetic people or voices raise the consequence level",
+  "management_question": "Should management authorize a six-month controlled pilot, and what readiness conditions must be satisfied before external publication?",
+  "time_horizon": "Pilot decision now; readiness gates within 90 days; six-month pilot; scale decision at month six",
+  "additional_context": "Pilot scope is two brands and two markets. Human approval is mandatory. Synthetic celebrity endorsements, political content, minors, and cloned voices are out of scope. The organization has not yet selected a vendor or documented whether provenance metadata survives its editing and publishing workflow."
+}

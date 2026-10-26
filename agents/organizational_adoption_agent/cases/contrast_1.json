@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Multimodal generative AI for short-form social video creation and content governance",
+  "intended_application": "Create draft 15-60 second TikTok and Instagram marketing videos from approved product assets, with human review before publication and provenance/disclosure controls for AI-generated media",
+  "organization": "Harbor Glow, a hypothetical 25-person direct-to-consumer beauty company selling in the United States",
+  "industry_sector": "Small consumer beauty brand and digital advertising",
+  "business_need": "Increase short-video output without adding agency cost or full-time production staff",
+  "users_stakeholders": "Founder, two-person marketing team, freelance creators, customers, social platforms, product counsel on retainer, performers and rights holders",
+  "adoption_posture": "Aggressive early adopter seeking immediate production gains",
+  "capabilities_constraints": "Founder sponsorship and fast decisions; no dedicated legal, privacy, information-security or AI-governance staff; marketing assets stored across shared drives; freelancers use personal accounts; no formal content approval workflow; no training budget; one marketer would operate and approve outputs; monthly tool budget capped at USD 1,500",
+  "risk_consequence_context": "Public-facing beauty claims, realistic synthetic people, consent and likeness, intellectual-property and platform-labeling risks. Rapid publication and limited review capacity make errors likely to reach customers before detection",
+  "management_question": "Should management begin using the technology for public short-video campaigns next month, and what must change first?",
+  "time_horizon": "Public launch proposed within 30 days; six-month operating horizon",
+  "additional_context": "The same employee would generate, review and publish content. Vendor terms, training-data assurances, incident response, provenance retention and approval evidence have not been evaluated."
+}
