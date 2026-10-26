@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "name": "Organizational Adoption Agent",
+    "specialty": "Organizational readiness for responsible adoption and sustained operation",
+    "version": "1.0"
+  },
+  "analytical_question": "Can the specified organization absorb, govern, and sustain multimodal generative AI for short-form social video, and what must be true before external publication?",
+  "general_et_finding": "Multimodal generative AI can produce useful short-video drafts, but reliable organizational adoption depends on governed inputs, competent human evaluation, rights and vendor controls, traceable content provenance or disclosure, monitored performance, and named operating accountability. These demands arise from the technology and remain stable across the tested organizations.",
+  "application_finding": "For public TikTok and Instagram marketing, the technology/application fit is plausible for bounded draft generation and localization, not autonomous publication. The application requires approved source assets, rights and consent checks, independent human approval, platform-appropriate AI disclosure, evidence that provenance survives the edit/export/upload path or a documented fallback, and rapid correction and incident handling.",
+  "organization_specific_finding": "Overall classification: CONDITIONALLY READY for a bounded pre-publication pilot; not ready for external publication until P0 gates close. Readiness profile: leadership/sponsorship 3 - a named CMO sponsor, bounded scope, and fast-follower posture support a controlled decision; skills/training 2 - relevant specialists exist but evaluators lack AI-video training; workflow/process 2 - a campaign approval process exists, but AI-specific rights, disclosure, evidence, exception, and rollback steps are untested; infrastructure/data 1 - asset management and enterprise identity are strengths, but no vendor is approved and provenance retention through the full workflow is unknown; resources/budget 2 - a six-month budget exists, but control workload and post-pilot capacity are unmeasured; governance/risk 2 - legal, privacy, security, and procurement teams exist, but the AI-video control set and incident process are incomplete; culture/change 0 - no evidence describes regional-team incentives, workload, or willingness to challenge outputs; operating ownership 1 - no post-launch service or incident owner is named. The most consequential gap is the missing end-to-end control and ownership chain from approved asset through publication and incident response: without it, capable teams cannot prove that rights, disclosure, provenance, and approval controls survive actual operations.",
+  "evidence": [
+    {
+      "claim": "The case supplies a CMO sponsor, centralized creative operations, existing campaign approvals, specialist risk functions, enterprise identity, and a pilot budget, but no approved vendor, proven provenance workflow, trained evaluator group, incident owner, or baseline metrics.",
+      "source_or_reference": "Supplied primary case context in agents/organizational_adoption_agent/cases/primary.json",
+      "date_or_recency": "2026-10-26",
+      "evidence_type": "Case evidence",
+      "notes": "Supports the dimension ratings; it does not prove that any untested control works."
+    },
+    {
+      "claim": "Generative-AI governance can require human review, tracking, documentation, management oversight, pre-deployment testing, content provenance, and incident disclosure.",
+      "source_or_reference": "NIST AI 600-1, https://doi.org/10.6028/NIST.AI.600-1",
+      "date_or_recency": "Published 2024-07-26; accessed 2026-10-26",
+      "evidence_type": "Government framework",
+      "notes": "Supports the operating-control categories; NIST AI RMF use is voluntary and does not establish legal compliance."
+    },
+    {
+      "claim": "TikTok requires creators to label realistic AI-generated content and may automatically label content when C2PA Content Credentials are present.",
+      "source_or_reference": "TikTok Help Center, https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content/",
+      "date_or_recency": "Accessed 2026-10-26",
+      "evidence_type": "Original platform policy",
+      "notes": "Supports a publication disclosure control and a platform-policy monitoring trigger."
+    },
+    {
+      "claim": "C2PA specifies cryptographically verifiable media provenance information, and current commercial video-generation workflows can attach Content Credentials, but preservation must be tested across the organization's own editing and publishing chain.",
+      "source_or_reference": "C2PA Specifications, https://spec.c2pa.org/specifications/; Adobe Firefly announcement, https://news.adobe.com/news/2025/02/firefly-web-app-commercially-safe",
+      "date_or_recency": "C2PA accessed 2026-10-26; Adobe published 2025-02-12",
+      "evidence_type": "Technical standard and vendor primary source",
+      "notes": "Capability examples do not prove that an unselected vendor or social-platform workflow preserves credentials."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The organization and readiness facts are hypothetical and have not been corroborated through interviews, documents, or system tests.",
+    "No vendor has been selected, so contractual rights, training-data position, retention, security controls, output provenance, and change-notification terms are unknown.",
+    "No end-to-end test shows that provenance or disclosure evidence survives editing, export, and platform upload.",
+    "No workload, culture, or baseline performance data shows whether reviewers can sustain the proposed control burden."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in the conditional pilot judgment because the case supplies several concrete strengths and gaps. Low confidence in readiness for external publication until vendor evidence, workflow tests, ownership, training results, and culture/workload data are produced. Ratings are ordinal gates, not a maturity average.",
+  "value_opportunity_implication": "A two-brand, two-market pilot can test whether draft generation reduces cycle time and localization effort while preserving brand and rights controls. Existing creative operations and campaign approvals lower the cost of testing compared with building a new operating model from scratch.",
+  "risk_governance_implication": "External publication should remain blocked until the organization can demonstrate approved inputs and rights, independent approval, disclosure/provenance handling, audit records, and a named incident path. Human approval alone is not sufficient if reviewers are untrained, evidence is not retained, or one owner cannot stop and correct distribution.",
+  "recommendation_management_implication": "Authorize only a bounded pre-publication pilot subject to five actions. P0 - CMO sponsor appoints a service owner and incident owner within 30 days; completion evidence is a signed RACI with stop-publication and escalation authority. P0 - procurement, security, privacy, and legal complete vendor due diligence before vendor approval; completion evidence covers data/asset use, retention, access, model changes, rights position, security, provenance, and incident notice. P0 - marketing operations and legal run an end-to-end control test before any external post; pass condition is 20 representative assets with 100% retained approval/rights/disclosure records, no critical review misses, and either detectable provenance after upload or a verified visible-disclosure fallback. P1 - creative operations trains operators and independent reviewers before pilot production; pass condition is at least 90% assessment success plus a tabletop involving deceptive output and takedown. P1 - the metrics owner records baseline cycle time, rework, disclosure errors, rights exceptions, incidents, reviewer time, and cost before launch and sets month-six scale thresholds; scale is blocked if any critical incident remains unresolved or control evidence is incomplete.",
+  "change_monitoring_triggers": [
+    "Any TikTok, Instagram, C2PA, or vendor change affecting AI labeling, provenance, asset use, retention, or model behavior",
+    "Any critical rights, consent, deceptive-content, privacy, security, or disclosure incident",
+    "More than 5% of sampled outputs missing required approval or disclosure evidence, or any critical miss in the pilot",
+    "Reviewer workload or rework eliminates the expected cycle-time benefit for two consecutive reporting periods",
+    "Change in sponsor, service owner, incident owner, pilot scope, geography, permitted content, or use of realistic people or cloned voices"
+  ],
+  "abstention_or_more_information_needed": [
+    "Provide vendor security, data/asset-use, retention, intellectual-property, provenance, change-notification, and incident terms before vendor readiness can be judged.",
+    "Provide an end-to-end edit/export/upload test showing whether Content Credentials or equivalent evidence survives and how visible disclosure is verified.",
+    "Provide workload and culture evidence from operators, reviewers, and regional teams, including whether staff can challenge outputs and sustain independent review.",
+    "Provide named post-launch service, incident, control, vendor-change, and metrics owners plus ongoing funding authority before scale readiness can be judged."
+  ]
+}

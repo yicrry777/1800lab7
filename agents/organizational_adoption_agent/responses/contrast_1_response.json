@@ -1,0 +1,63 @@
+{
+  "agent": {
+    "name": "Organizational Adoption Agent",
+    "specialty": "Organizational readiness for responsible adoption and sustained operation",
+    "version": "1.0"
+  },
+  "analytical_question": "Can the specified organization absorb, govern, and sustain multimodal generative AI for short-form social video, and what must be true before external publication?",
+  "general_et_finding": "Multimodal generative AI can produce useful short-video drafts, but reliable organizational adoption depends on governed inputs, competent human evaluation, rights and vendor controls, traceable content provenance or disclosure, monitored performance, and named operating accountability. These demands arise from the technology and remain stable across the tested organizations.",
+  "application_finding": "For public TikTok and Instagram marketing, the technology/application fit is plausible for bounded draft generation and localization, not autonomous publication. The application requires approved source assets, rights and consent checks, independent human approval, platform-appropriate AI disclosure, evidence that provenance survives the edit/export/upload path or a documented fallback, and rapid correction and incident handling.",
+  "organization_specific_finding": "Overall classification: NOT READY for the proposed public launch in 30 days; a non-public sandbox may be used to learn. Readiness profile: leadership/sponsorship 2 - the founder can decide quickly but has not stated risk boundaries or escalation rules; skills/training 1 - a two-person marketing team and freelancers lack dedicated legal, privacy, security, and AI-evaluation capacity; workflow/process 1 - no formal approval process exists and one marketer would generate, approve, and publish; infrastructure/data 1 - assets are fragmented across shared drives and freelancers use personal accounts, while vendor and provenance controls are unknown; resources/budget 1 - the USD 1,500 monthly tool cap excludes demonstrated funding for review, training, counsel, security, measurement, and incident handling; governance/risk 1 - no vendor, rights, disclosure, audit, or incident controls have been evaluated; culture/change 0 - no evidence shows how freelancers will follow controls or challenge outputs; operating ownership 1 - one marketer concentrates incompatible duties and no incident or control owner is named. The most consequential gap is the absence of independent publication approval and a minimum governance owner: the proposed same-person generate-review-publish flow provides no credible control against rights, deceptive-content, or disclosure failures.",
+  "evidence": [
+    {
+      "claim": "The case supplies founder sponsorship and rapid decisions but no specialist control functions, formal approval workflow, company-managed creator accounts, training budget, segregation of duties, incident response, provenance test, or vendor review.",
+      "source_or_reference": "Supplied contrast case context in agents/organizational_adoption_agent/cases/contrast_1.json",
+      "date_or_recency": "2026-10-26",
+      "evidence_type": "Case evidence",
+      "notes": "Supports a different readiness conclusion while holding technology and application constant."
+    },
+    {
+      "claim": "Generative-AI governance can require human review, tracking, documentation, management oversight, pre-deployment testing, content provenance, and incident disclosure.",
+      "source_or_reference": "NIST AI 600-1, https://doi.org/10.6028/NIST.AI.600-1",
+      "date_or_recency": "Published 2024-07-26; accessed 2026-10-26",
+      "evidence_type": "Government framework",
+      "notes": "The framework does not prescribe organizational size, but the case lacks capacity to perform several relevant functions."
+    },
+    {
+      "claim": "TikTok requires creators to label realistic AI-generated content and may automatically label content when C2PA Content Credentials are present.",
+      "source_or_reference": "TikTok Help Center, https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content/",
+      "date_or_recency": "Accessed 2026-10-26",
+      "evidence_type": "Original platform policy",
+      "notes": "The organization has no demonstrated disclosure verification step."
+    },
+    {
+      "claim": "C2PA defines technical provenance information, but the presence and survival of Content Credentials depend on actual tools and workflow behavior.",
+      "source_or_reference": "C2PA Specifications, https://spec.c2pa.org/specifications/",
+      "date_or_recency": "Accessed 2026-10-26",
+      "evidence_type": "Technical standard",
+      "notes": "No vendor or end-to-end workflow test is supplied."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "A small organization can implement lightweight controls; headcount alone does not determine readiness.",
+    "The profile is hypothetical and does not include interviews, actual vendor terms, sample outputs, or financial data beyond the tool cap.",
+    "External counsel or a managed creative service could close capability gaps, but no such arrangement is supplied."
+  ],
+  "confidence_and_uncertainty": "High confidence that the proposed 30-day public launch is not supportable from the supplied facts. Moderate confidence about the best remediation path because actual workflow volume, vendor choice, counsel availability, and willingness to fund independent review are unknown.",
+  "value_opportunity_implication": "The technology could expand output for a small marketing team, but immediate public use would shift hidden review, correction, and rights costs onto already constrained staff. A sandbox can estimate whether value survives the minimum control burden.",
+  "risk_governance_implication": "Founder approval is not a substitute for independent content review, managed accounts, rights evidence, platform disclosure, vendor due diligence, or incident response. If the organization cannot fund a separate approver and minimum specialist review, it should not use the technology for public-facing realistic synthetic media.",
+  "recommendation_management_implication": "Do not launch public AI-generated short-video campaigns next month. P0 - founder limits activity to a non-public sandbox immediately; evidence is a written scope blocking publication, realistic people, cloned voices, and unapproved assets. P0 - founder names a service/control owner and establishes an independent approver before any public post; evidence is a two-person generate-versus-approve workflow and takedown authority. P0 - the control owner and retained counsel review vendor terms, rights/consent, disclosure, retention, security, and provenance before purchase; evidence is a signed decision record and tested disclosure path. P1 - marketing moves assets and publishing access to company-managed repositories and accounts before pilot production; evidence is an access list, approved-asset register, and removal of personal publishing credentials. P1 - management funds operator/reviewer training and a 10-asset dry run; go/no-go requires complete approval and disclosure evidence, zero critical rights or deceptive-content misses, and workload within documented staff capacity. If these minimum conditions cannot be funded, management should defer adoption or use a managed service with equivalent controls.",
+  "change_monitoring_triggers": [
+    "Funding or contracting of independent review, legal support, and managed company accounts",
+    "Selection or material change of a vendor, model, terms, provenance behavior, or data-retention practice",
+    "Any platform labeling-policy change or failed disclosure/provenance check",
+    "Any rights, consent, deceptive-content, security, privacy, or brand incident",
+    "Dry-run evidence showing whether workload, quality, and control requirements fit the two-person team"
+  ],
+  "abstention_or_more_information_needed": [
+    "Identify a person independent from generation who can approve publication and a person authorized to stop distribution and manage incidents.",
+    "Provide the actual vendor terms and test results for asset use, retention, security, provenance, disclosure, and model changes.",
+    "Provide expected monthly video volume, review time, counsel availability, and total control budget rather than license budget alone.",
+    "Provide evidence about freelancer access, rights/consent records, training, and willingness to use company-managed workflow controls."
+  ]
+}
